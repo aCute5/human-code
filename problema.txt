@@ -1,0 +1,31 @@
+Scegliere cosa guardare su Netflix
+Che barba, che noia, che noia, che barba!
+Perché ci si mette sempre un’ora a scegliere cosa guardare la sera? 
+Certo è difficile mettere d’accordo i gusti di tutti, poi dipende anche in base al tempo (o al sonno) che abbiamo.
+Delle volte si pensa di vedere quel bel film che ci hanno consigliato, mentre altre volte si viene risucchiati da quella
+serie tv che ci tiene incollati allo schermo. Che senso di vuoto quando poi finisce! (modificato)
+
+PROBLEMA:
+
+DEVO CREARE UNA LISTA DI SERIE PREFERIBILI NELLA HOME DELL'UTENTE. 
+
+START
+
+-Prendi tutte le serie presenti su Netflix
+-Crea una lista delle serie di Netflix già viste. 
+-Crea una lista delle serie preferibili dall'utente in base ai gusti passati.
+
+Prendi una serie su Netflix
+    SE la serie non è nella lista delle serie già viste AND NOT rispetta i gusti passati
+        -scarta la serie.
+
+
+-Prendi una serie di Netflix
+    SE la serie NOT è nella lista delle serie già viste dall'utente AND rispetta i gusti passati
+        -mettila nella lista delle serie preferibili
+    ALTRIMENTI
+        - metti la serie nella lista delle serie già viste. 
+
+-Metti la lista delle serie preferibili nella home dell'utente. 
+
+FINE 
